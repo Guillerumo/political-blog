@@ -3,7 +3,7 @@ title: "Bienvenido"
 author: "José Guillermo Pérez-Camacho"
 date: "2025-07-30"
 format: html
+categories: [general]
 ---
-
 Este es el primer post del blog. ¡Bienvenidos!
-
+---
