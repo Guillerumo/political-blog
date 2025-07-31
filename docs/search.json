@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Political Blog",
     "section": "",
-    "text": "Bienvenido\n\n\n\n\n\n\ngeneral\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\nJosé Guillermo Pérez-Camacho\n\n\n\n\n\n\nNo matching items"
+    "text": "Bienvenido\n\n\n\n\n\n\ngeneral\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\nJosé Guillermo Pérez-Camacho\n\n\n\n\n\n\n\n\n\n\n\n\nSegundo post\n\n\n\n\n\n\ngeneral\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\nJosé Guillermo Pérez-Camacho\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/index.html",
@@ -19,5 +19,12 @@
     "title": "Bienvenido",
     "section": "",
     "text": "Este es el primer post del blog. ¡Bienvenidos!"
+  },
+  {
+    "objectID": "posts/Prueba/Prueba.html",
+    "href": "posts/Prueba/Prueba.html",
+    "title": "Segundo post",
+    "section": "",
+    "text": "Prueba del día. Intentar determinar si no hay más errores."
   }
 ]

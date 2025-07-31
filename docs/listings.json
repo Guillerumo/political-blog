@@ -2,7 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/index.html"
+      "/posts/index.html",
+      "/posts/Prueba/Prueba.html"
     ]
   }
 ]
