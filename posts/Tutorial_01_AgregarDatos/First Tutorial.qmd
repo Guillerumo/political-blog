@@ -1,0 +1,14 @@
+---
+title: "Primeiro Tutorial"
+author: "José Guillermo Pérez-Camacho"
+date: "2025-08-07"
+category: "Tutorial de Análises de Dados"
+format: html
+---
+
+#Tutorial para trazer dados: Excel e CSV. Todo análise de dados precisa de um material: dados. Eles podem vir em diferentes formatos. Porém tem dois que são os mais usados: Excel e CSV. Por isso, em este primeiro tutorial vou mostrar como introduzir dados de ambos os dois formatos. A principal forma de trazer dados é através do
+
+```{r}
+# Código en R
+summary(cars)
+```
