@@ -6,9 +6,31 @@ category: "Tutorial de Análises de Dados"
 format: html
 ---
 
-#Tutorial para trazer dados: Excel e CSV. Todo análise de dados precisa de um material: dados. Eles podem vir em diferentes formatos. Porém tem dois que são os mais usados: Excel e CSV. Por isso, em este primeiro tutorial vou mostrar como introduzir dados de ambos os dois formatos. A principal forma de trazer dados é através do
+#Cómo traer datos a R: una guía práctica
+
+En cualquier proyecto de análisis de datos, el primer paso es importar la información al entorno de trabajo. En R existen varias formas de hacerlo, dependiendo del tipo de archivo y de la organización de tu proyecto.
+
+En esta guía veremos las opciones más comunes paso a paso.
+
+##1. Archivos CSV
+
+Los archivos CSV (Comma Separated Values) son probablemente el formato más usado.
 
 ```{r}
-# Código en R
-summary(cars)
+# Forma más directa
+datos <- read.csv("ruta/del/archivo.csv") #ATENTO. Cuando copias la ruta desde tu computador a veces los slash '/' salen invertidos ('\'). 
+
+# Usando readr (más rápido y moderno)
+install.packages("readr") #Instala el paquete 'readr'
+library(readr) #Carga la librería 
+datos <- read_csv("ruta/del/archivo.csv")
+
 ```
+
+**Tip:** si tu CSV usa `;` en lugar de `,` como separador (algo común en configuraciones regionales), puedes usar:
+
+```{r}
+datos <- read.csv2("ruta/del/archivo.csv")
+```
+
+##2. Archivos Excel

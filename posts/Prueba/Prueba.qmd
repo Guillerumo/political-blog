@@ -6,5 +6,4 @@ format: html
 categories: [general]
 ---
 
-Prueba del día. 
-Intentar determinar si no hay más errores. 
+Prueba del día. Intentar determinar si no hay más errores.
